@@ -8,10 +8,10 @@ end
 "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(timer,pause)
+def countdown_with_sleep(timer)
   while timer > 0
   puts "#{timer} SECONDS(S)!"
-  sleep(pause.seconds)
+  sleep(timer.seconds)
   seconds -=1
 end
 "HAPPY NEW YEAR!"
